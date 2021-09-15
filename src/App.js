@@ -1,15 +1,9 @@
-import './App.css';
-import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Home from './components/home/Home';
-import News from './components/news/News';
-import Contact from './components/contact/Contact';
+import './sass/style.scss';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NavContent from './components/Nav/NavContent';
+import Home from './components/pages/home/Home';
+import News from './components/pages/news/News';
+import Contact from './components/pages/contact/Contact';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -17,32 +11,8 @@ function App() {
     <Router>
 
       <div className="wrapper"> 
-      <Container>
-        <Navbar bg="light" expand="lg">        
-          <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <NavLink exact to="/" className="nav-link">Home</NavLink>
-              <NavLink to="/news" className="nav-link">News</NavLink>
-              <NavLink to="/contact" className="nav-link">Contact</NavLink>
-            </Nav>
-            <Form>
-              <Row className="align-items-center">
-                <Col>
-                  <Form.Control type="text" placeholder="search" className="mr-sm-2" />
-                </Col>
-                <Col>
-                  <Button variant="primary" type="submit">
-                    Go
-                  </Button>
-                </Col>
-              </Row>
-            </Form>
-          </Navbar.Collapse>                
-        </Navbar>
-      </Container>
-       
+      
+        <NavContent />
 
         <hr />
 
