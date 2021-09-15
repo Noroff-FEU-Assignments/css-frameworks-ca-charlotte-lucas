@@ -25,34 +25,34 @@ function News() {
             <Row>
                 <Col md={6} lg={3}>
                     <CardContent>
-                        <Card.Img variant="top" src={NewsImage1} />
+                        <Card.Img variant="top" src={NewsImage1} alt="" />
                     </CardContent>
                     <CardContent>
-                        <Card.Img variant="top" src={NewsImage2} />
+                        <Card.Img variant="top" src={NewsImage2} alt="" />
                     </CardContent>
                 </Col>
                 <Col md={6} lg={3}>
                     <CardContent>
-                        <Card.Img variant="top" src={NewsImage3} />
+                        <Card.Img variant="top" src={NewsImage3} alt="" />
                     </CardContent>
                     <CardContent>
-                        <Card.Img variant="top" src={NewsImage4} />
-                    </CardContent>
-                </Col>
-                <Col md={6} lg={3} className="d-none d-md-block">
-                    <CardContent>
-                        <Card.Img variant="top" src={NewsImage5} />
-                    </CardContent>
-                    <CardContent>
-                        <Card.Img variant="top" src={NewsImage6} />
+                        <Card.Img variant="top" src={NewsImage4} alt="" />
                     </CardContent>
                 </Col>
                 <Col md={6} lg={3} className="d-none d-md-block">
                     <CardContent>
-                        <Card.Img variant="top" src={NewsImage7} />
+                        <Card.Img variant="top" src={NewsImage5} alt="" />
                     </CardContent>
                     <CardContent>
-                        <Card.Img variant="top" src={NewsImage8} />
+                        <Card.Img variant="top" src={NewsImage6} alt="" />
+                    </CardContent>
+                </Col>
+                <Col md={6} lg={3} className="d-none d-md-block">
+                    <CardContent>
+                        <Card.Img variant="top" src={NewsImage7} alt="" />
+                    </CardContent>
+                    <CardContent>
+                        <Card.Img variant="top" src={NewsImage8} alt="" />
                     </CardContent>
                 </Col>
             </Row>

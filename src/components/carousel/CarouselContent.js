@@ -8,13 +8,13 @@ function CarouselContent() {
     return (
         <Carousel>
             <Carousel.Item>
-                <img className="d-block w-100" src={CarouselImage1} alt="First slide" />
+                <img className="d-block w-100" src={CarouselImage1} alt="" />
             </Carousel.Item>
             <Carousel.Item>
-                <img className="d-block w-100" src={CarouselImage2} alt="Second slide" /> 
+                <img className="d-block w-100" src={CarouselImage2} alt="" /> 
             </Carousel.Item>
             <Carousel.Item>
-                <img className="d-block w-100" src={CarouselImage3} alt="Third slide" />
+                <img className="d-block w-100" src={CarouselImage3} alt="" />
             </Carousel.Item>
         </Carousel>
     );

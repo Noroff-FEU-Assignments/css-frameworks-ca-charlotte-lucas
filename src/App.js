@@ -14,7 +14,6 @@ function App() {
       
         <NavContent />
 
-        <hr />
 
         {/*
           A <Switch> looks through all its children <Route>
