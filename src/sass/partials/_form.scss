@@ -1,0 +1,30 @@
+.contactForm {
+  background-color: $colour-tertiary;
+  padding: 1rem 2rem;
+  border-radius: $border-radius;
+}
+
+.btn-disabled {
+  background-color: $colour-secondary;
+  color: white;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 1.375rem;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.form-label {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+.form-check {
+  margin-top: 1rem;
+}
+
+.form-check-input[type="checkbox"] {
+  background-color: $colour-primary;
+  border-color: $colour-primary;
+}

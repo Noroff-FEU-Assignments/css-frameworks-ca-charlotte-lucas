@@ -1,0 +1,44 @@
+.tab-content {
+  background-color: $colour-input;
+  padding: 1rem 1rem 3rem 1rem;
+  border-radius: $border-radius;
+  margin-top: -18px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: $colour-secondary;
+  background-color: $colour-input;
+  border-color: $colour-input;
+  border-radius: $border-radius $border-radius 0px 0px;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.nav-link {
+  color: $colour-primary;
+  font-size: 1.25rem;
+
+  &:hover {
+    color: $colour-primary;
+    background-color: $colour-input;
+  }
+}
+
+.shareIconsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  & p {
+    margin-right: 0.5rem;
+    color: $colour-links;
+  }
+  & .fa-facebook-f,
+  .fa-twitter {
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    color: $colour-links;
+  }
+}

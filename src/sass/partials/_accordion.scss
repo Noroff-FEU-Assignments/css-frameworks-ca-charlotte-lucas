@@ -1,0 +1,23 @@
+.card-header {
+  background-color: $colour-tertiary;
+  border-bottom: 1px solid $colour-primary;
+}
+
+.btn-link {
+  color: $colour-primary;
+  text-decoration: none;
+  font-size: 1.25rem;
+  &:hover {
+    color: $colour-primary;
+  }
+}
+
+.card-body {
+  padding: 1rem 2rem;
+  & img {
+    margin-bottom: 1rem;
+  }
+  & .shareIconsContainer {
+    justify-content: center;
+  }
+}

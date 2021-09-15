@@ -1,4 +1,5 @@
 import React from 'react';
+import "./sass/style.scss";
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import Home from './components/Home';
 import News from './components/News';
@@ -10,12 +11,13 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 
 
+
 function App() {
   return (
     <Router>
       <div>
 
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" variant="light">
         <Container>
           <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -25,10 +27,12 @@ function App() {
               <NavLink to="/news" className="nav-link">News</NavLink>
               <NavLink to="/contact" className="nav-link">Contact</NavLink>
             </Nav>
-            <Form inline>
-              <Form.Control type="text" placeholder="Search" className="mr-sm-2" />
-                <Button variant="outline-success">Go</Button>
-              </Form>
+            <Form>
+              <div className="searchContainer">
+                <Form.Control type="text" placeholder="Search" className="mr-sm-2" />
+                <Button variant="primary">Go</Button>
+              </div>
+            </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>

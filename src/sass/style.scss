@@ -1,0 +1,32 @@
+$colour-primary: #e92569;
+$colour-secondary: #767676;
+$colour-tertiary: #efefef;
+$colour-input: #ffffff;
+$colour-background: rgb(252, 213, 219);
+$colour-links: #0a0a0a;
+//bootstrap
+$theme-colors: (
+  "primary": $colour-primary,
+  "light": $colour-tertiary,
+);
+
+$input-bg: $colour-input;
+$input-border-color: $colour-input;
+$border-radius: 4px;
+
+$input-plaintext-color: $colour-secondary;
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: $colour-primary;
+
+$body-bg: $colour-background;
+$body-color: $colour-secondary;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./partials/nav";
+@import "./partials/form";
+@import "./partials/tabs";
+@import "./partials/accordion";
+@import "./partials/typography";

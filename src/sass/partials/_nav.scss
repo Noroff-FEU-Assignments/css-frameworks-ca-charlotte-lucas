@@ -1,0 +1,40 @@
+.navbar-light .navbar-brand {
+  color: $colour-primary;
+  font-family: $headings-font-family;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: italic;
+  &:hover {
+    color: $colour-primary;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  color: $colour-secondary;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $colour-links;
+  font-size: 1rem;
+  &:hover {
+    color: $colour-links;
+    border-radius: $border-radius;
+  }
+}
+.navbar-light .navbar-nav .nav-link.active {
+  background-color: $colour-input;
+  border-radius: $border-radius;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  & input {
+    border-radius: $border-radius 0 0 $border-radius;
+  }
+  & button {
+    color: $colour-input;
+    border-radius: 0 $border-radius $border-radius 0;
+  }
+}
