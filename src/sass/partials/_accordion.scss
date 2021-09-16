@@ -1,23 +1,48 @@
-.card-header {
-  background-color: $colour-tertiary;
-  border-bottom: 1px solid $colour-primary;
+.accordionCard {
+  margin-top: -30px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  &__header {
+    background-color: $colour-tertiary;
+    border-radius: 10px;
+    box-shadow: inset 0 -1px $colour-primary;
+  }
+  &__body {
+    padding: 1rem 2rem;
+  }
+}
+
+.shareIconsAccordion {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 1rem;
+  justify-content: center;
+  & p {
+    margin-right: 0.5rem;
+    color: $colour-links;
+    font-weight: 500;
+  }
+  & .fa-facebook-f,
+  .fa-twitter {
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    color: $colour-links;
+  }
+}
+
+.accordion {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .btn-link {
   color: $colour-primary;
   text-decoration: none;
   font-size: 1.25rem;
+  width: 100%;
+  text-align: left;
   &:hover {
     color: $colour-primary;
-  }
-}
-
-.card-body {
-  padding: 1rem 2rem;
-  & img {
-    margin-bottom: 1rem;
-  }
-  & .shareIconsContainer {
-    justify-content: center;
   }
 }

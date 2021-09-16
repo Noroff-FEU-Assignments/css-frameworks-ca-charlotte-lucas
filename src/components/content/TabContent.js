@@ -23,7 +23,9 @@ function TabContent() {
                                 venenatis pharetra leo laoreet a. Nullam non eleifend justo, a 
                                 ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed 
                                 condimentum mattis rhoncus. </Paragraph>
-                            <ShareIcons />
+                            <div className="shareIconsTabs">
+                                <ShareIcons />
+                            </div>
                         </Col>
                     </Row>
                 </Tab>
@@ -37,7 +39,9 @@ function TabContent() {
                                 venenatis pharetra leo laoreet a. Nullam non eleifend justo, a 
                                 ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed 
                                 condimentum mattis rhoncus. </Paragraph>
-                            <ShareIcons />
+                            <div className="shareIconsTabs">
+                                <ShareIcons />
+                            </div>
                         </Col>
                     </Row>
                 </Tab>
@@ -51,7 +55,9 @@ function TabContent() {
                                 venenatis pharetra leo laoreet a. Nullam non eleifend justo, a 
                                 ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed 
                                 condimentum mattis rhoncus. </Paragraph>
-                            <ShareIcons />
+                            <div className="shareIconsTabs">
+                                <ShareIcons />
+                            </div>
                         </Col>
                     </Row>
                 </Tab>

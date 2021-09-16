@@ -11,9 +11,9 @@ function Contact() {
     return (
         <>
             <Container>
-                <PageHeading content="Submit your details" />
-                <Row xs={1} md={2}>
-                    <Col xs={{ order: 'last' }}>
+                <Row>
+                    <Col xs={{ order: 'last' }} md={8}>
+                        <PageHeading content="Submit your details" />
                         <ContactForm />
                     </Col>
                     <Col md={{ order: 'last' }}>

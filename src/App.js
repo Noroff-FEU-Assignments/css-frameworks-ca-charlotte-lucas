@@ -17,19 +17,19 @@ function App() {
     <Router>
       <div>
 
-      <Navbar bg="light" expand="lg" variant="light">
+      <Navbar bg="light" expand="lg" variant="light" className="navbar">
         <Container>
-          <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
+          <Navbar.Brand href="#home" className="navbar__brand">The YAY Company</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <NavLink exact to="/" className="nav-link">Home</NavLink>
-              <NavLink to="/news" className="nav-link">News</NavLink>
-              <NavLink to="/contact" className="nav-link">Contact</NavLink>
+            <Nav className="me-auto nav">
+              <NavLink exact to="/" className="nav__link">Home</NavLink>
+              <NavLink to="/news" className="nav__link">News</NavLink>
+              <NavLink to="/contact" className="nav__link">Contact</NavLink>
             </Nav>
             <Form>
-              <div className="searchContainer">
-                <Form.Control type="text" placeholder="Search" className="mr-sm-2" />
+              <div className="searchForm">
+                <Form.Control type="text" placeholder="Search" className="mr-sm-2 searchForm__input" />
                 <Button variant="primary">Go</Button>
               </div>
             </Form>

@@ -4,6 +4,7 @@ $colour-tertiary: #efefef;
 $colour-input: #ffffff;
 $colour-background: rgb(252, 213, 219);
 $colour-links: #0a0a0a;
+
 //bootstrap
 $theme-colors: (
   "primary": $colour-primary,
@@ -23,6 +24,18 @@ $headings-color: $colour-primary;
 $body-bg: $colour-background;
 $body-color: $colour-secondary;
 
+$card-bg: $colour-input;
+$card-cap-bg: $colour-input;
+$card-border-color: none;
+$card-border-radius: 10px;
+$btn-focus-box-shadow: none;
+
+$input-focus-box-shadow: none;
+$input-focus-border-color: $colour-primary;
+$input-group-addon-bg: #c7c7c7;
+$input-group-addon-border-color: #c7c7c7;
+$input-group-addon-color: #ffffff;
+
 @import "~bootstrap/scss/bootstrap";
 
 @import "./partials/nav";
@@ -30,3 +43,7 @@ $body-color: $colour-secondary;
 @import "./partials/tabs";
 @import "./partials/accordion";
 @import "./partials/typography";
+@import "./partials/pagination";
+@import "./partials/cards";
+@import "./partials/contactDetails";
+@import "./partials/carousel";

@@ -1,6 +1,6 @@
 .tab-content {
   background-color: $colour-input;
-  padding: 1rem 1rem 3rem 1rem;
+  padding: 2rem;
   border-radius: $border-radius;
   margin-top: -18px;
 }
@@ -13,27 +13,25 @@
   border-radius: $border-radius $border-radius 0px 0px;
 }
 
-.nav-tabs .nav-link {
-  border: none;
-}
-
 .nav-link {
   color: $colour-primary;
   font-size: 1.25rem;
-
+  border: none;
   &:hover {
     color: $colour-primary;
     background-color: $colour-input;
+    border: none;
   }
 }
 
-.shareIconsContainer {
+.shareIconsTabs {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   & p {
     margin-right: 0.5rem;
     color: $colour-links;
+    font-weight: 500;
   }
   & .fa-facebook-f,
   .fa-twitter {

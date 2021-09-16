@@ -9,7 +9,7 @@ function CarouselContent() {
         <Carousel>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block"
                 src={CarouselImg1}
                 alt="First slide"
                 />
@@ -17,7 +17,7 @@ function CarouselContent() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block"
                 src={CarouselImg2}
                 alt="Second slide"
                 />
@@ -25,7 +25,7 @@ function CarouselContent() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block"
                 src={CarouselImg3}
                 alt="Third slide"
                 />

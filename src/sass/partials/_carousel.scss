@@ -1,0 +1,25 @@
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.carousel {
+  margin-bottom: 2rem;
+  ol {
+    li {
+      background-color: white;
+      height: 30px;
+      width: 30px;
+      margin: 0 0.5rem;
+      border-radius: 2px;
+
+      &.active {
+        background-color: $colour-primary;
+      }
+    }
+  }
+}
+
+.carousel-inner {
+  min-height: 287px;
+}
