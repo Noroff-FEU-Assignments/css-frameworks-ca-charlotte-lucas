@@ -1,0 +1,43 @@
+$colours: (
+  primary: #e92569,
+  secondary: #767676,
+  tertiary: #efefef,
+  input: #ffffff,
+  links: #0a0a0a,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
+
+//bootstrap
+$theme-colors: (
+  "primary": getColour(primary),
+  "light": getColour(tertiary),
+);
+
+$input-bg: getColour(input);
+$input-border-color: getColour(input);
+$border-radius: 4px;
+
+$input-plaintext-color: getColour(secondary);
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: getColour(primary);
+
+$body-color: getColour(secondary);
+
+$card-bg: getColour(input);
+$card-cap-bg: getColour(input);
+$card-border-color: none;
+$card-border-radius: 10px;
+$btn-focus-box-shadow: none;
+
+$input-focus-box-shadow: none;
+$input-focus-border-color: getColour(primary);
+$input-group-addon-bg: #c7c7c7;
+$input-group-addon-border-color: #c7c7c7;
+$input-group-addon-color: #ffffff;
+
+$nav-tabs-link-hover-border-color: #d1d1d1;

@@ -1,7 +1,10 @@
 .contactForm {
-  background-color: $colour-tertiary;
+  background-color: getColour(tertiary);
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.04);
   padding: 1rem 2rem;
   border-radius: $border-radius;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
   &__label {
     margin-top: 1rem;
     font-size: 1.25rem;
@@ -24,8 +27,8 @@
 }
 
 .form-check-input[type="checkbox"] {
-  background-color: $colour-primary;
-  border-color: $colour-primary;
+  background-color: getColour(primary);
+  border-color: getColour(primary);
   width: 1.5rem;
   height: 1.5rem;
   margin-top: 0;
@@ -35,7 +38,7 @@
 }
 
 .btn-disabled {
-  background-color: $colour-secondary;
+  background-color: getColour(secondary);
   color: white;
   width: 100%;
   margin: 1rem 0;

@@ -1,7 +1,14 @@
+html,
 body {
-  background-image: radial-gradient(
-    circle at center,
-    getColour(white),
-    getColour(grey)
-  );
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-image: radial-gradient(getColour(input), getColour(tertiary));
+}
+
+.wrapper {
+  flex: 1 0 auto;
 }

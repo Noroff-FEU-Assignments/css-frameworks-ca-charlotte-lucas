@@ -1,26 +1,35 @@
 .tab-content {
-  background-color: $colour-input;
+  background-color: getColour(input);
   padding: 2rem;
-  border-radius: $border-radius;
-  margin-top: -18px;
+  border-radius: 10px;
+  margin-bottom: 8rem;
+  margin-top: -5px;
+  border: 1px solid #d1d1d1;
+  box-shadow: 0 16px 22px rgba(0, 0, 0, 0.06);
 }
 
+.nav-tabs {
+  margin-top: 4rem;
+  border-bottom: none;
+}
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: $colour-secondary;
-  background-color: $colour-input;
-  border-color: $colour-input;
-  border-radius: $border-radius $border-radius 0px 0px;
+  color: getColour(secondary);
+  background-color: getColour(input);
+  border: 1px 1px 0 1px solid #d1d1d1;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .nav-link {
-  color: $colour-primary;
+  color: getColour(primary);
   font-size: 1.25rem;
+  border-radius: 10px 10px 0px 0px;
   border: none;
   &:hover {
-    color: $colour-primary;
-    background-color: $colour-input;
-    border: none;
+    color: getColour(primary);
+    background-color: getColour(input);
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
   }
 }
 
@@ -30,13 +39,13 @@
   align-items: baseline;
   & p {
     margin-right: 0.5rem;
-    color: $colour-links;
+    color: getColour(links);
     font-weight: 500;
   }
   & .fa-facebook-f,
   .fa-twitter {
     margin: 0 0.5rem;
     font-size: 1.25rem;
-    color: $colour-links;
+    color: getColour(links);
   }
 }

@@ -5,6 +5,8 @@
 
 .carousel {
   margin-bottom: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
   ol {
     li {
       background-color: white;
@@ -14,7 +16,7 @@
       border-radius: 2px;
 
       &.active {
-        background-color: $colour-primary;
+        background-color: getColour(primary);
       }
     }
   }

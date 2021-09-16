@@ -10,17 +10,19 @@ import Footer from './content/Footer';
 function Contact() {
     return (
         <>
-            <Container>
-                <Row>
-                    <Col xs={{ order: 'last' }} md={8}>
-                        <PageHeading content="Submit your details" />
-                        <ContactForm />
-                    </Col>
-                    <Col md={{ order: 'last' }}>
-                        <ContactDetails />
-                    </Col>
-                </Row>
-            </Container>
+            <div className="wrapper">
+                <Container>
+                    <Row>
+                        <Col xs={{ order: 'last' }} md={8} lg={6}>
+                            <PageHeading content="Submit your details" />
+                            <ContactForm />
+                        </Col>
+                        <Col md={{ order: 'last' }}>
+                            <ContactDetails />
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
             <Footer />
         </>
     )

@@ -2,10 +2,11 @@
   margin-top: -30px;
   margin-bottom: 1rem;
   border-radius: 10px;
+  box-shadow: 0 16px 22px rgba(0, 0, 0, 0.06);
   &__header {
-    background-color: $colour-tertiary;
+    background-color: getColour(tertiary);
     border-radius: 10px;
-    box-shadow: inset 0 -1px $colour-primary;
+    box-shadow: inset 0 -1px getColour(primary);
   }
   &__body {
     padding: 1rem 2rem;
@@ -20,29 +21,29 @@
   justify-content: center;
   & p {
     margin-right: 0.5rem;
-    color: $colour-links;
+    color: getColour(links);
     font-weight: 500;
   }
   & .fa-facebook-f,
   .fa-twitter {
     margin: 0 0.5rem;
     font-size: 1.25rem;
-    color: $colour-links;
+    color: getColour(links);
   }
 }
 
 .accordion {
   margin-top: 4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 10rem;
 }
 
 .btn-link {
-  color: $colour-primary;
+  color: getColour(primary);
   text-decoration: none;
   font-size: 1.25rem;
   width: 100%;
   text-align: left;
   &:hover {
-    color: $colour-primary;
+    color: getColour(primary);
   }
 }

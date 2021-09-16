@@ -2,16 +2,16 @@
   margin: 2rem 0;
 }
 .page-link {
-  color: $colour-primary;
-  border-color: $colour-primary;
+  color: getColour(primary);
+  border-color: getColour(primary);
   &:hover {
     color: white;
-    background-color: $colour-primary;
-    border-color: $colour-primary;
+    background-color: getColour(primary);
+    border-color: getColour(primary);
   }
 }
 
 .page-item.active .page-link {
-  background-color: $colour-primary;
-  border-color: $colour-primary;
+  background-color: getColour(primary);
+  border-color: getColour(primary);
 }

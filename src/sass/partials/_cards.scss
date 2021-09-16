@@ -1,5 +1,6 @@
 .productCard {
   margin-bottom: 1.5rem;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
   &__body {
     margin: 0 1rem;
     &--text {
@@ -10,7 +11,7 @@
 }
 
 .btn-productCard {
-  background-color: $colour-primary;
+  background-color: getColour(primary);
   padding-left: 32px;
   color: white;
   width: 100%;
@@ -18,13 +19,13 @@
   text-transform: uppercase;
   font-weight: 500;
   border: none;
-  border-right: 32px solid $colour-secondary;
+  border-right: 32px solid getColour(secondary);
   margin-bottom: 1rem;
 
   &:hover {
     color: white;
     padding-left: 0px;
-    border-right: 0px solid $colour-secondary;
+    border-right: 0px solid getColour(secondary);
     transition: ease-out 1s;
   }
 }

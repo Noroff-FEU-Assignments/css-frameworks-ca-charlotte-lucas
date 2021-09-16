@@ -5,7 +5,7 @@ h1 {
   font-weight: 400;
 }
 h5 {
-  color: $colour-links;
+  color: getColour(links);
   font-size: 1.25rem;
   font-family: $font-family-base;
   font-weight: 600;
@@ -14,5 +14,6 @@ h5 {
 }
 p {
   margin-bottom: 2rem;
+  font-size: 1rem;
   font-weight: 400;
 }

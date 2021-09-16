@@ -1,43 +1,8 @@
-$colour-primary: #e92569;
-$colour-secondary: #767676;
-$colour-tertiary: #efefef;
-$colour-input: #ffffff;
-$colour-background: rgb(252, 213, 219);
-$colour-links: #0a0a0a;
-
-//bootstrap
-$theme-colors: (
-  "primary": $colour-primary,
-  "light": $colour-tertiary,
-);
-
-$input-bg: $colour-input;
-$input-border-color: $colour-input;
-$border-radius: 4px;
-
-$input-plaintext-color: $colour-secondary;
-
-$font-family-base: "Lato", sans-serif;
-$headings-font-family: "Playfair Display", serif;
-$headings-color: $colour-primary;
-
-$body-bg: $colour-background;
-$body-color: $colour-secondary;
-
-$card-bg: $colour-input;
-$card-cap-bg: $colour-input;
-$card-border-color: none;
-$card-border-radius: 10px;
-$btn-focus-box-shadow: none;
-
-$input-focus-box-shadow: none;
-$input-focus-border-color: $colour-primary;
-$input-group-addon-bg: #c7c7c7;
-$input-group-addon-border-color: #c7c7c7;
-$input-group-addon-color: #ffffff;
+@import "./partials/customVariables";
 
 @import "~bootstrap/scss/bootstrap";
 
+@import "./partials/base";
 @import "./partials/nav";
 @import "./partials/form";
 @import "./partials/tabs";
@@ -47,3 +12,4 @@ $input-group-addon-color: #ffffff;
 @import "./partials/cards";
 @import "./partials/contactDetails";
 @import "./partials/carousel";
+@import "./partials/footer";

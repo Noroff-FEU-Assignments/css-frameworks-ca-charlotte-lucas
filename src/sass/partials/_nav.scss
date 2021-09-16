@@ -4,19 +4,20 @@
     font-size: 1.25rem;
     font-weight: 700;
     font-style: italic;
+    margin-right: 3rem;
   }
 }
 
 .navbar-light .navbar-brand {
-  color: $colour-primary;
+  color: getColour(primary);
   &:hover {
-    color: $colour-primary;
+    color: getColour(primary);
   }
 }
 
 .navbar-toggler {
   border: none;
-  color: $colour-secondary;
+  color: getColour(secondary);
   &:focus {
     box-shadow: none;
   }
@@ -24,17 +25,17 @@
 
 .nav {
   &__link {
-    color: $colour-links;
+    color: getColour(links);
     font-size: 1rem;
     margin: 5px 0;
     padding: 2px 10px;
     text-decoration: none;
     &.active {
-      background-color: $colour-input;
+      background-color: getColour(input);
       border-radius: $border-radius;
     }
     &:hover {
-      color: $colour-links;
+      color: getColour(links);
       background-color: white;
       border-radius: $border-radius;
     }
@@ -49,7 +50,7 @@
     border-radius: $border-radius 0 0 $border-radius;
   }
   & button {
-    color: $colour-input;
+    color: getColour(input);
     border-radius: 0 $border-radius $border-radius 0;
   }
 }

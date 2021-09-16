@@ -1,26 +1,21 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             <Container>
-                <Row>
-                    <Col>
-                        <i className="fab fa-vimeo-v"></i>
-                        <i className="fab fa-youtube"></i>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <p>hello@yay.com</p>
-                    </Col>
-                    <Col>
-                        <p>Copyright 2020</p>
-                    </Col>
-                </Row>
+                <div className="flexContainer">
+                    <div className="footer__icons">
+                        <i className="fab fa-vimeo-v footer__icons--i"></i>
+                        <i className="fab fa-youtube footer__icons--i"></i>
+                    </div>
+                    <div className="footer__links">
+                        <p className="footer__links--p">hello@yay.com</p>
+                        <p className="footer__links--p">Copyright 2020</p>
+                    </div>
+                </div>
             </Container>
         </footer>
     );

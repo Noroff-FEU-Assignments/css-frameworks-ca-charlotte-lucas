@@ -12,7 +12,7 @@ import ShareIcons from './ShareIcons';
 function TabContent() {
     return (
         <div className="d-none d-md-block">
-            <Tabs defaultActiveKey="first" id="uncontrolled-tab-example" className="mb-3">
+            <Tabs defaultActiveKey="first" id="uncontrolled-tab-example">
                 <Tab eventKey="first" title="First">
                     <Row>
                         <Col>

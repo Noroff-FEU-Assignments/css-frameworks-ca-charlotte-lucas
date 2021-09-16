@@ -9,12 +9,14 @@ import Footer from './content/Footer';
 function News() {
     return (
         <>
-            <Container>
-                <PageHeading content="News" /> 
-                <PaginationContent />
-                <ProductGrid />
-                <PaginationContent />
-            </Container>
+            <div className="wrapper">
+                <Container>
+                    <PageHeading content="News" /> 
+                    <PaginationContent />
+                    <ProductGrid />
+                    <PaginationContent />
+                </Container>
+            </div>
             <Footer />
         </>
     )
