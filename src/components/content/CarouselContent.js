@@ -6,26 +6,26 @@ import CarouselImg3 from './images/carouselImages/carousel-3.jpg';
 
 function CarouselContent() {
     return (
-        <Carousel>
-            <Carousel.Item>
+        <Carousel className="carousel">
+            <Carousel.Item className="carousel__slide">
                 <img
-                className="d-block"
+                className="img-fluid carousel__slide--image"
                 src={CarouselImg1}
                 alt="First slide"
                 />
                 
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="carousel__slide">
                 <img
-                className="d-block"
+                className="img-fluid carousel__slide--image"
                 src={CarouselImg2}
                 alt="Second slide"
                 />
 
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="carousel__slide">
                 <img
-                className="d-block"
+                className="img-fluid carousel__slide--image"
                 src={CarouselImg3}
                 alt="Third slide"
                 />

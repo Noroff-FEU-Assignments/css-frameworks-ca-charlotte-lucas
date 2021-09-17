@@ -7,6 +7,12 @@
   margin-bottom: 2rem;
   max-width: 1400px;
   margin: 0 auto;
+  &__slide {
+    &--image {
+      min-height: 287px;
+      object-fit: cover;
+    }
+  }
   ol {
     li {
       background-color: white;
@@ -20,8 +26,4 @@
       }
     }
   }
-}
-
-.carousel-inner {
-  min-height: 287px;
 }

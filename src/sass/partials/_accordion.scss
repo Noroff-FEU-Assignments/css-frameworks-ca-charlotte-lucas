@@ -6,10 +6,12 @@
   &__header {
     background-color: getColour(tertiary);
     border-radius: 10px;
-    box-shadow: inset 0 -1px getColour(primary);
   }
   &__body {
     padding: 1rem 2rem;
+  }
+  .show {
+    border-top: 1px solid getColour(primary);
   }
 }
 

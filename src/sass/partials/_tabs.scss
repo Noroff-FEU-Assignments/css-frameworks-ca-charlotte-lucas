@@ -1,17 +1,18 @@
+.tabBlock {
+  margin-top: 4rem;
+}
+.nav-tabs {
+  border-bottom: none;
+}
 .tab-content {
   background-color: getColour(input);
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 0 10px 10px 10px;
   margin-bottom: 8rem;
-  margin-top: -5px;
   border: 1px solid #d1d1d1;
   box-shadow: 0 16px 22px rgba(0, 0, 0, 0.06);
 }
 
-.nav-tabs {
-  margin-top: 4rem;
-  border-bottom: none;
-}
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: getColour(secondary);

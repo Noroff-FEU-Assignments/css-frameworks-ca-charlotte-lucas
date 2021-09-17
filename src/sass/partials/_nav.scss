@@ -1,4 +1,10 @@
 .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
   &__brand {
     font-family: $headings-font-family;
     font-size: 1.25rem;
@@ -6,11 +12,17 @@
     font-style: italic;
     margin-right: 3rem;
   }
+  &-collapse {
+    box-shadow: 0 6px 12px -14px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .navbar-light .navbar-brand {
   color: getColour(primary);
   &:hover {
+    color: getColour(primary);
+  }
+  &:focus {
     color: getColour(primary);
   }
 }
@@ -28,7 +40,7 @@
     color: getColour(links);
     font-size: 1rem;
     margin: 5px 0;
-    padding: 2px 10px;
+    padding: 5px 10px;
     text-decoration: none;
     &.active {
       background-color: getColour(input);
